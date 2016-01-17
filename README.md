@@ -14,12 +14,3 @@ Following has been implemented in this application:
 
 Run or test it: It works on any browser so you can save this application and open it up in Sublime Text. After that you can run it in 
 chrome or firefox or any other browser of your desire and it will give the output as mentioned.
-
-
-
-
-
-
-
-
-The novalidate attribute is not needed for this application, but normally you will use it in AngularJS forms, to override standard HTML5 validation.
