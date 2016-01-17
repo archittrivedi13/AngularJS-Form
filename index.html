@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+	
+	<head>
+		<title>AngularJS Two Way Data Binding</title>
+		<script src= "lib\angular.min.js"></script>
+		<script src= "js\controller.js"></script>
+	</head>
+	
+	<body bgcolor="#E6E6FA">
+		<h1>Country</h1>
+		<div ng-app="myApp" ng-controller="formCtrl">
+			<form novalidate>
+				Name of Country:<br/>
+				<input type="text" ng-model="country.countryName"><br/>
+				Name of State:<br/>
+				<input type="text" ng-model="country.stateName">
+				<br/><br/>
+				<button ng-click="reset()">RESET</button>
+			</form>
+			<p>form = {{country }}</p>
+			<p>master = {{master}}</p>
+		</div>
+	</body>
+</html>
